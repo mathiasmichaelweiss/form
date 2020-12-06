@@ -1,0 +1,90 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #595959;
+}
+
+.container {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container .cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .cv .btn {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background: rgba(179, 221, 239, 0.9);
+  font-weight: bold;
+}
+
+.container .cv .box {
+  width: 28.6%;
+  height: 5rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  background: rgba(179, 221, 239, 0.9);
+  border-radius: 0.5rem;
+}
+
+.container .cv .box .file {
+  position: relative;
+  top: -0.6rem;
+}
+
+.container .cv .box input {
+  margin-top: 1rem;
+  padding-left: 0.3rem;
+  width: 75%;
+}
+
+.container .cv .box h4 {
+  font-size: 2em;
+  padding-bottom: 0.2rem;
+}
+
+.container .cv .box p {
+  font-style: 1.4em;
+  padding-bottom: 0.4rem;
+  padding-left: 0.3rem;
+}
+
+.container .cv .box-big {
+  width: 45.3%;
+  height: 10rem;
+}
+
+.container .cv .line {
+  background: rgba(255, 255, 255, 0.2);
+  color: #595959;
+}
+
+.container .cv .strings {
+  height: 7.3rem;
+  width: 30.7rem;
+  resize: none;
+  padding: 0.2rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #595959;
+}
+
+.container .cv .photo {
+  width: 100%;
+  background: rgba(179, 221, 239, 0.9);
+  width: 45.3%;
+}
+/*# sourceMappingURL=style.css.map */
